@@ -374,7 +374,7 @@ h1{
 }
 
 .projects{
-	height:1000px;
+	height:1300px;
 	background-color:#f6f5f5;
 	padding: 2% 10% 0px 10%;
 }
@@ -384,6 +384,7 @@ h1{
 	flex-direction: column;
 	height: 900px;
 	justify-content: space-evenly;
+	margin-top: 15%;
 }
 
 .row1-project, .row2-project{
@@ -392,16 +393,16 @@ h1{
 	justify-content:space-between;
 	margin-left: 10px;
 	margin-right: 10px;
-	height: 300px;
+	height: 350px;
 	width : 98%;
 }
 
 .project-1,.project-2{
 	width: 80%;
-	height: 300px;
+	height: 350px;
 	background-repeat: no-repeat;
 	background-size: cover;
-	
+	align-items: center;
 	display: flex;
 	flex-direction: column;
 	margin: 0px 4px;
@@ -424,15 +425,64 @@ h1{
 
 .projects img{
 	height: 210px;
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 	margin-bottom: 20px;
 }
 
 .projects-container p{
 	font-family: calibri;
-	font-weight:bold;
-	color:#1d1c1c;
-	font-size:20px;
+	/* font-weight:bold; */
+	color:#424141;
+	font-size:15px;
 }
+
+.projects-container h3{
+	font-family: calibri;
+	text-align: center;
+	margin: 0px;
+}
+
+.allProjects{
+	display: flex;
+
+	justify-content: center;
+	flex-direction: column;
+}
+
+.allProjects h2{
+	font-family: calibri;
+}
+
+.allProjects a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:200px;
+	height:50px;
+	margin:0px;
+	padding: 0px;
+	line-height:0px;
+	background-color:#FFFFFF;
+	border:1px solid #CBCBCB;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+}
+.allProjects a:hover{
+	background-color:#000000;
+	transition:all ease 0.5s;
+}
+.allProjects i{
+	font-size:20px;
+	color:#2B2B2B;
+}
+
+.allProjects a:hover i{
+	color:#FFFFFF;
+	transition:all ease 0.5s;
+}
+
+/* *{
+	border: black solid 1px;
+} */
 
 /* Skills */
 
